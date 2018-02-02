@@ -27,3 +27,8 @@ git branch "branch name"    - create branch
 
 git checkout <new branch name>  - Checkout Branch
 
+git merge "<branch Name>"  - merge
+
+git brnach -d "<branch Name>"   - delete branch locally
+git push origin --delete "<branch Name>" - delete branch remote
+
