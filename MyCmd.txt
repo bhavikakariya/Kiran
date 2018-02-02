@@ -13,10 +13,17 @@ git remote add origin https://github.com/bhavikakariya/Repo11.git
 git push -u origin master
 
 
-
+Configuration -----
 
 git config --global user.email "bhavika@amdocs.com"
 git config --global user.name "bhavikakariya"
-
 git config --global http.proxy http://bhavikakariya:bhavika@amdocs.com@genproxy.amdocs.com:8080
+
+
+
+
+Branching ------
+git branch "branch name"    - create branch
+
+git checkout <new branch name>  - Checkout Branch
 
