@@ -1,0 +1,34 @@
+git --version   --> to check Git present on machine
+
+git init  --> initialize a project in Git
+
+git status  --> to check current project status, how many new file, checked out file and so on
+
+git add <filename>
+
+git commit -m "<comment>"
+
+git remote add origin https://github.com/bhavikakariya/Repo11.git
+
+git push -u origin master
+
+
+Configuration -----
+
+git config --global user.email "bhavika@amdocs.com"
+git config --global user.name "bhavikakariya"
+git config --global http.proxy http://bhavikakariya:bhavika@amdocs.com@genproxy.amdocs.com:8080
+
+
+
+
+Branching ------
+git branch "branch name"    - create branch
+
+git checkout <new branch name>  - Checkout Branch
+
+git merge "<branch Name>"  - merge
+
+git branch -d "<branch Name>"   - delete branch locally
+git push origin --delete "<branch Name>" - delete branch remote
+
